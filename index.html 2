@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hombre que Heladería</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #fff8e7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fcd77f;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 50px;
+            color: #d14c00;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+            color: #444;
