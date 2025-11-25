@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hombre que Heladería</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #fff8e7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fcd77f;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 50px;
+            color: #d14c00;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+            color: #444;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .box {
+            background: #fff;
+            padding: 30px;
+            margin: 20px 0;
+            max-width: 900px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .box img {
+            width: 250px;
+            border-radius: 10px;
+            margin: 15px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .menu-item {
+            background: #ffd9a8;
+            margin: 10px;
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            font-size: 20px;
+            flex: 1 1 150px;
+            max-width: 200px;
+        }
+        .contacts {
+            background: #ffe5b4;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+        .contacts h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #fcd77f;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍦 Hombre que Heladería 🍦</h1>
+        <p>Benvenuti nella nostra gelateria online!</p>
+    </header>
+
+    <div class="content">
+        <div class="box">
+            <h2>I nostri gusti speciali</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    Cioccolato <br>
+                    <img src="https://images.unsplash.com/photo-1601924582975-3e6d9a6df787?auto=format&fit=crop&w=400&q=80" alt="Cioccolato">
+                </div>
+                <div class="menu-item">
+                    Vaniglia <br>
+                    <img src="https://images.unsplash.com/photo-1617196030585-2df04fdd6b83?auto=format&fit=crop&w=400&q=80" alt="Vaniglia">
+                </div>
+                <div class="menu-item">
+                    Fragola <br>
+                    <img src="https://images.unsplash.com/photo-1599785209792-0a7f61257612?auto=format&fit=crop&w=400&q=80" alt="Fragola">
+                </div>
+                <div class="menu-item">
+                    Pistacchio <br>
+                    <img src="https://images.unsplash.com/photo-1606851093337-22367a153b2c?auto=format&fit=crop&w=400&q=80" alt="Pistacchio">
+                </div>
+                <div class="menu-item">
+                    Limone <br>
+                    <img src="https://images.unsplash.com/photo-1589875036052-4b21ed7e3b06?auto=format&fit=crop&w=400&q=80" alt="Limone">
+                </div>
+                <div class="menu-item">
+                    Caramello <br>
+                    <img src="https://images.unsplash.com/photo-1590080871230-4b9a14ec90b5?auto=format&fit=crop&w=400&q=80" alt="Caramello">
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts box">
+            <h2>Contatti</h2>
+            <h3>📍 Indirizzo: Via dei Gelati 123, Città</h3>
+            <h3>📞 Telefono: 123-456-7890</h3>
+            <h3>✉️ Email: info@hombrequeheladeria.com</h3>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Hombre que Heladería - Tutti i diritti riservati
+    </footer>
+</body>
+</html>
