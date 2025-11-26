@@ -1,48 +1,86 @@
+
+
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hombre que Heladería</title>
+    <title>Hombre Que Heladeria</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background: #fff8e7;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f3e7;
+            color: #333;
+        }
+        header {
+            background: #e3a857;
+            padding: 20px;
             text-align: center;
-            padding: 50px;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
         }
-        h1 {
-            color: #d14c00;
-            font-size: 50px;
-        }
-        p {
-            font-size: 22px;
-            color: #444;
-        }
-        .box {
-            background: #fff;
-            padding: 30px;
+        .container {
+            padding: 20px;
+            max-width: 900px;
             margin: auto;
-            max-width: 600px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
         }
-        img {
-            width: 200px;
-            margin-top: 20px;
+        h2 {
+            color: #c47e2e;
+        }
+        .gelati {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
             border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        footer {
+            background: #e3a857;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>🍦 Hombre que Heladería 🍦</h1>
-        <p>Benvenuto nella nostra gelateria online!</p>
-        <p>Scopri i nostri gusti speciali e le novità del giorno!</p>
-        <img src="https://images.unsplash.com/photo-1601924582975-3e6d9a6df787?auto=format&fit=crop&w=400&q=80" alt="Gelato">
+
+<header>
+    🍦 Hombre Que Heladeria 🍦
+</header>
+
+<div class="container">
+
+    <h2>I nostri gusti di gelato</h2>
+
+    <div class="gelati">
+        <div class="card">Vaniglia</div>
+        <div class="card">Cioccolato</div>
+        <div class="card">Fragola</div>
+        <div class="card">Pistacchio</div>
+        <div class="card">Nocciola</div>
+        <div class="card">Limone</div>
     </div>
+
+    <h2>Dove siamo</h2>
+    <p>📍 Via della Gelateria 12, Italia</p>
+
+    <h2>Orari</h2>
+    <p>🕒 Aperto tutti i giorni 10:00 - 22:00</p>
+
+</div>
+
+<footer>
+    © 2025 Hombre Que Heladeria - Tutti i diritti riservati
+</footer>
+
 </body>
 </html>
-Aggiornato layout con immagini e stile
-
-
